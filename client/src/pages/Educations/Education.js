@@ -19,26 +19,39 @@ const Education = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "black" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
-            date="2020 - 2022"
+            date="2022 - 2026"
             iconStyle={{ background: "#138781", color: "#fff" }}
             icon={<MdSchool />}
           >
-            <h3 className="vertical-timeline-element-title">MCA</h3>
+            <h3 className="vertical-timeline-element-title">BTech - CSE</h3>
             <h4 className="vertical-timeline-element-subtitle">
-              IIT Mumbai, IN
+              Birla Institute of Technology, Mesra
             </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "black" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
-            date="2017 - 2020"
+            date="2021"
             iconStyle={{ background: "#138781", color: "#fff" }}
             icon={<MdSchool />}
           >
-            <h3 className="vertical-timeline-element-title">BCA</h3>
+            <h3 className="vertical-timeline-element-title">Senior Secondary</h3>
             <h4 className="vertical-timeline-element-subtitle">
-              IIT Mumbai, IN
+              Pt. DeenDayal USVM Inter College, Lakhimpur Kheri
+            </h4>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "white", color: "black" }}
+            contentArrowStyle={{ borderRight: "7px solid  white" }}
+            date="2019"
+            iconStyle={{ background: "#138781", color: "#fff" }}
+            icon={<MdSchool />}
+          >
+            <h3 className="vertical-timeline-element-title">Secondary</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Pt. DeenDayal USVM Inter College, Lakhimpur Kheri
             </h4>
           </VerticalTimelineElement>
         </VerticalTimeline>

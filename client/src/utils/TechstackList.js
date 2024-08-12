@@ -78,62 +78,47 @@ export const TechstackList = [
   },
   {
     _id: 12,
-    name: "Adobe XD ",
-    icon: SiAdobexd,
-  },
-  {
-    _id: 13,
     name: "Photoshop ",
     icon: SiAdobephotoshop,
   },
   {
-    _id: 14,
+    _id: 13,
     name: "React Native ",
     icon: SiReact,
   },
   {
-    _id: 15,
+    _id: 14,
     name: "Node JS ",
     icon: FaNodeJs,
   },
   {
-    _id: 16,
+    _id: 15,
     name: "Express JS ",
     icon: SiExpress,
   },
   {
-    _id: 17,
+    _id: 16,
     name: "Wordpress ",
     icon: SiWordpress,
   },
   {
-    _id: 18,
+    _id: 17,
     name: "Mongodb ",
     icon: SiMongodb,
   },
   {
-    _id: 19,
+    _id: 18,
     name: "SQL ",
     icon: SiMysql,
   },
   {
-    _id: 20,
+    _id: 19,
     name: "Firebase ",
     icon: SiFirebase,
   },
   {
-    _id: 21,
+    _id: 20,
     name: "Git / Github ",
     icon: SiGithub,
-  },
-  {
-    _id: 22,
-    name: "Docker ",
-    icon: SiDocker,
-  },
-  {
-    _id: 23,
-    name: "Nginx ",
-    icon: SiNginx,
   },
 ];

@@ -3,6 +3,7 @@ import "./Menus.css";
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import { Link } from "react-scroll";
+import profileImg from "../../assets/profile.jpg"
 import {
   FcAbout,
   FcBiotech,
@@ -20,7 +21,7 @@ const Menus = ({ toggle }) => {
           <Zoom>
             <div className="navbar-profile-pic">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzHQv_th9wq3ivQ1CVk7UZRxhbPq64oQrg5Q&usqp=CAU"
+                src={profileImg}
                 alt="profile pic"
               />
             </div>
@@ -77,7 +78,7 @@ const Menus = ({ toggle }) => {
                     Tech Stack
                   </Link>
                 </div>
-
+{/* 
                 <div className="nav-link">
                   <Link
                     to="projects"
@@ -89,8 +90,8 @@ const Menus = ({ toggle }) => {
                     <FcVideoProjector />
                     Projects
                   </Link>
-                </div>
-                <div className="nav-link">
+                </div> */}
+                {/* <div className="nav-link">
                   <Link
                     to="work"
                     spy={true}
@@ -101,7 +102,7 @@ const Menus = ({ toggle }) => {
                     <FcPortraitMode />
                     Work Experince
                   </Link>
-                </div>
+                </div> */}
                 <div className="nav-link">
                   <Link
                     to="contact"
@@ -168,7 +169,7 @@ const Menus = ({ toggle }) => {
                 </Link>
               </div>
 
-              <div className="nav-link">
+              {/* <div className="nav-link">
                 <Link
                   to="projects"
                   spy={true}
@@ -178,7 +179,7 @@ const Menus = ({ toggle }) => {
                 >
                   <FcVideoProjector />
                 </Link>
-              </div>
+              </div> */}
               <div className="nav-link">
                 <Link
                   to="work"
