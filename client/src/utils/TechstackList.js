@@ -37,11 +37,6 @@ export const TechstackList = [
     icon: SiJavascript,
   },
   {
-    _id: 5,
-    name: "TypeScript",
-    icon: SiTypescript,
-  },
-  {
     _id: 7,
     name: "React JS",
     icon: SiReact,
