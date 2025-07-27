@@ -6,6 +6,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import "./Education.css";
+
 const Education = () => {
   return (
     <>
@@ -27,6 +28,9 @@ const Education = () => {
             <h4 className="vertical-timeline-element-subtitle">
               Birla Institute of Technology, Mesra
             </h4>
+            <p>
+              <b>cgpa:</b> 9
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -40,6 +44,9 @@ const Education = () => {
             <h4 className="vertical-timeline-element-subtitle">
               Pt. DeenDayal USVM Inter College, Lakhimpur Kheri
             </h4>
+            <p>
+              <b>percentage:</b> 97%
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -53,6 +60,9 @@ const Education = () => {
             <h4 className="vertical-timeline-element-subtitle">
               Pt. DeenDayal USVM Inter College, Lakhimpur Kheri
             </h4>
+            <p>
+              <b>percentage:</b> 97.6%
+            </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
