@@ -29,7 +29,7 @@ const Education = () => {
               Birla Institute of Technology, Mesra
             </h4>
             <p>
-              <b>cgpa:</b> 9
+              <b>CGPA :</b> 9
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -42,10 +42,10 @@ const Education = () => {
           >
             <h3 className="vertical-timeline-element-title">Senior Secondary</h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Pt. DeenDayal USVM Inter College, Lakhimpur Kheri
+              Pt. DeenDayal U.S.V.M. Inter College, Lakhimpur Kheri
             </h4>
             <p>
-              <b>percentage:</b> 97%
+              <b>Percentage :</b> 97%
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -58,10 +58,10 @@ const Education = () => {
           >
             <h3 className="vertical-timeline-element-title">Secondary</h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Pt. DeenDayal USVM Inter College, Lakhimpur Kheri
+              Pt. DeenDayal U.S.V.M. Inter College, Lakhimpur Kheri
             </h4>
             <p>
-              <b>percentage:</b> 97.6%
+              <b>Percentage :</b> 97.6%
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
