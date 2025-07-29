@@ -29,7 +29,7 @@ const Education = () => {
               Birla Institute of Technology, Mesra
             </h4>
             <p>
-              <b>CGPA :</b> 9
+              <b>CGPA :</b> 8.9
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
